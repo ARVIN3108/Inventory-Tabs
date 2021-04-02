@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "inv_tabs",
+  "version": "${version}",
+
+  "name": "Inventory Tabs++",
+  "description": "Adds more tabs in creative inventory!",
+  "authors": [
+    "ARVIN3108 ID"
+  ],
+
+  "license": "CC0-1.0",
+  "icon": "assets/inv_tabs/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.arvin3108_id.inv_tabs.Main"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "modmenu": "*"
+  },
+  "modmenu": {
+    "links": {
+      "modmenu.youtube": "youtube.com/channel/UC6sge2UJ6MwLAnfjjTQU17Q"
+    }
+  }
+}
